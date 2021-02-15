@@ -25,8 +25,7 @@ section {
   font-family: Lato;
   opacity: 0.7;
   color: #171717;
-
-  line-height: 3rem;
+  line-height: 180%;
   font-size: 18px;
   font-weight: 300;
 }
@@ -36,9 +35,9 @@ section::first-letter {
   font-family: "Playfair Display";
   text-transform: uppercase;
   font-size: 11rem;
-
+  line-height: 80%;
   float: left;
-  margin-right: 3px;
+  margin-right: 4%;
 }
 .quote {
   font-size: 24px;
@@ -69,4 +68,17 @@ section::first-letter {
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.homework {
+  text-transform: uppercase;
+  display: block;
+}
+.homework a {
+  text-decoration: none;
+  font-family: Lato;
+  color: #eaa258;
+  font-family: Lato;
+  font-size: 18px;
+  float: right;
 }
